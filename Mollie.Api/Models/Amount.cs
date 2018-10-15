@@ -6,7 +6,7 @@
         public string Currency { get; set; }
 
         /// <summary>
-        /// An ISO 4217 currency code. The currencies supported depend on the payment methods that are enabled on your account.
+        /// The value of the payment, e.g. 100.00 for a €100.00 payment.
         /// </summary>
         public string Value { get; set; }
 
